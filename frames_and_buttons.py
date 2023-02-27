@@ -17,9 +17,9 @@ class myGUI:
         self.label3 = t.Label(self.top_frame,text="Jim")
 
 
-        self.label1.pack()
-        self.label2.pack()
-        self.label3.pack()
+        self.label1.pack(side='left')
+        self.label2.pack(side='left')
+        self.label3.pack(side='left')
 
         self.label4 = t.Label(self.bottom_frame,text="Jen")
         self.label5 = t.Label(self.bottom_frame,text="Jill")
